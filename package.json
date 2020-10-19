@@ -1,0 +1,25 @@
+{
+  "name": "playwright_bite_sized",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -e \"const { one } = require('.'); one();\"",
+    "two": "node -e \"const { two } = require('.'); two();\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neurocollective/playwright_bite_sized.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neurocollective/playwright_bite_sized/issues"
+  },
+  "homepage": "https://github.com/neurocollective/playwright_bite_sized#readme",
+  "dependencies": {
+    "playwright": "^1.5.1"
+  }
+}
